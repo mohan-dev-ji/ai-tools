@@ -18,7 +18,8 @@ async function ChatPage({ params }: ChatPageProps) {
 
     // get user authenticatiion
     const { userId } = await auth();
-        if (!userAgent) {
+
+        if (!userId) {
             redirect("/");
         }
 

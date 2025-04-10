@@ -2,7 +2,7 @@ import { NavigationContext } from "@/lib/NavigationProvider";
 import { useRouter } from "next/navigation";
 import { use } from "react";
 import { Button } from "./ui/button";
-import { PlusIcon, TrashIcon } from "@radix-ui/react-icons";
+import { PlusIcon} from "@radix-ui/react-icons";
 import { cn } from "@/lib/utils";
 import { useMutation, useQuery } from "convex/react";
 import { api } from "@/convex/_generated/api";

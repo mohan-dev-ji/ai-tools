@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { Button } from "./ui/button";
 import { ArrowRight } from "lucide-react";
 import { ChatRequestBody, StreamMessageType } from "@/lib/types";
-import { error } from "console";
+
 import { createSSEParser } from "@/lib/createSSEParser";
 import { getConvexClient } from "@/lib/convex";
 import { api } from "@/convex/_generated/api";
