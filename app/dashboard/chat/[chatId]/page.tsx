@@ -4,7 +4,7 @@ import { Id } from "@/convex/_generated/dataModel";
 import { getConvexClient } from "@/lib/convex";
 import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
-import { userAgent } from "next/server";
+
 
 interface ChatPageProps {
     params: Promise<{
